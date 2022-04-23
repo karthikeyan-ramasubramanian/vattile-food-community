@@ -419,26 +419,7 @@ h1, h2, h3, h4, h5, h6 {
   background: #195905;
 
 }
-#hero .btn-watch-video {
-  font-size: 16px;
-  display: inline-block;
-  transition: 0.5s;
-  margin-left: 25px;
-  color: #fff;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-}
-#hero .btn-watch-video i {
-  line-height: 0;
-  color: #fff;
-  font-size: 32px;
-  transition: 0.3s;
-  margin-right: 8px;
-}
-#hero .btn-watch-video:hover i {
-  color: #195905;
-}
+
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
@@ -455,70 +436,39 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 30px;
   }
 }
-/* Team Section
+/* special
 --------------------------------*/
+.align-cen{
+  position: relative;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-get-started {
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+  display: inline-block;
+  padding: 10px 35px 10px 35px;
+  border-radius: 4px;
+  transition: 0.5s;
+  color: #3cd40e;
+  background: #fff;
+  border: 2px solid #3cd40e;
+  
+}
+.btn-get-started:hover {
+  border-color: #3cd40e;
+  background: #3cd40e;
+  color: #fff;
+
+}
 #team {
   background: #fff;
   padding: 60px 0;
 }
-#team .member {
-  text-align: center;
-  margin-bottom: 20px;
-  background: #000;
-  position: relative;
-}
-#team .member .member-info {
-  opacity: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-  transition: 0.2s;
-}
-#team .member .member-info-content {
-  margin-top: -50px;
-  transition: margin 0.2s;
-}
-#team .member:hover .member-info {
-  background: rgba(0, 0, 0, 0.7);
-  opacity: 1;
-  transition: 0.4s;
-}
-#team .member:hover .member-info-content {
-  margin-top: 0;
-  transition: margin 0.4s;
-}
-#team .member h4 {
-  font-weight: 700;
-  margin-bottom: 2px;
-  font-size: 18px;
-  color: #fff;
-}
-#team .member span {
-  font-style: italic;
-  display: block;
-  font-size: 13px;
-  color: #fff;
-}
-#team .member .social {
-  margin-top: 15px;
-}
-#team .member .social a {
-  transition: none;
-  color: #fff;
-}
-#team .member .social a:hover {
-  color: #18d26e;
-}
-#team .member .social i {
-  font-size: 18px;
-  margin: 0 2px;
-}
-
 
 /*--------------------------------------------------------------
 # Events
@@ -879,7 +829,7 @@ section {
 --------------------------------*/
 .section-header h3 {
   font-size: 32px;
-  color: #111;
+  color: #195905;
   text-transform: uppercase;
   text-align: center;
   font-weight: 700;
@@ -902,7 +852,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #18d26e;
+  background: #3cd40e;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -1064,7 +1014,7 @@ section {
   font-size: 48px;
   display: inline-block;
   margin-bottom: 10px;
-  color: #18d26e;
+  color: #195905;
 }
 #contact .contact-info address, #contact .contact-info p {
   margin-bottom: 0;
@@ -1081,7 +1031,7 @@ section {
   color: #000;
 }
 #contact .contact-info a:hover {
-  color: #18d26e;
+  color: #3cd40e;
 }
 #contact .contact-address, #contact .contact-phone, #contact .contact-email {
   margin-bottom: 20px;
@@ -1116,7 +1066,7 @@ section {
 #contact .php-email-form .sent-message {
   display: none;
   color: #fff;
-  background: #18d26e;
+  background: #3cd40e;
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -1134,7 +1084,7 @@ section {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
+  border: 3px solid #3cd40e;
   border-top-color: #eee;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
@@ -1149,10 +1099,10 @@ section {
   font-size: 15px;
 }
 #contact .php-email-form input::focus, #contact .php-email-form textarea::focus {
-  background-color: #18d26e;
+  background-color: #3cd40e;
 }
 #contact .php-email-form button[type=submit] {
-  background: #18d26e;
+  background: #3cd40e;
   border: 0;
   padding: 10px 30px;
   color: #fff;
@@ -1160,7 +1110,7 @@ section {
   cursor: pointer;
 }
 #contact .php-email-form button[type=submit]:hover {
-  background: #13a456;
+  background: #195905;
 }
 @-webkit-keyframes animate-loading {
   0% {
